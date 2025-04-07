@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service By Zaw Ye Htike</title>
+    <link rel="stylesheet" href="/Css/index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="box_1">
+            <h1>Service By  健太</h1>
+        </div>
+        <div class="hello">
+            <h1>Click The Logo Or Scan Me To Connect Zaw Ye Htike</h1>
+        </div>
+        <div class="box_2">
+            
+            <div class="box_2_mini_1">
+                <a href="viber://chat/?number=+959791709977">
+                    <img src="/Image/Viber.png" alt="Viber">
+                    
+                </a>
+                
+            </div>
+            <div class="box_2_mini_2">
+                <div id="viberqr"></div>
+            </div>
+        </div>
+        <div class="box_3">
+            
+            <div class="box_2_mini_1">
+                <a href="https://t.me/+959791709977">
+                    <img src="/Image/telegram.png" alt="Telegram">
+                    
+                </a>
+            </div>
+            <div class="box_2_mini_2">
+                <div id="telegramqr"></div>
+            </div>
+        </div>
+        <div class="box_4">
+            
+            <div class="box_2_mini_1">
+                <a href="https://line.me/ti/p/_89mp8ymsX">
+                    <img src="/Image/Line.png" alt="Line">
+                    
+                </a>
+            </div>
+            <div class="box_2_mini_2">
+                <div id="lineqr"></div>
+            </div>
+        </div>
+        <div class="hello" style="margin-top: 90px;">
+            <h1>Following Number For Only in Japan</h1>
+        </div>
+        <div class="box_4">
+            
+            <div class="box_2_mini_1">
+                <a href="tel:+8108029488177">
+                    <img src="/Image/Mobile.jpg" alt="Mobile">
+                    
+                </a>
+            </div>
+            <div class="box_2_mini_2">
+                <div id="phoneqr"></div>
+            </div>
+        </div>
+        
+    </div>
+
+    <script>
+        const viber="viber://chat/?number=+959791709977";
+        new QRCode(document.getElementById("viberqr"),{
+            text:viber,
+            height:150,
+            width:150,
+        });
+
+        const telegram="https://t.me/+959791709977";
+        new QRCode(document.getElementById("telegramqr"),{
+            text:telegram,
+            height:150,
+            width:150,
+        });
+
+        const line="https://line.me/ti/p/_89mp8ymsX";
+        new QRCode(document.getElementById("lineqr"),{
+            text:telegram,
+            height:150,
+            width:150,
+        });
+        
+        const phone="tel:+8108029488177";
+        new QRCode(document.getElementById("phoneqr"),{
+            text:phone,
+            height:150,
+            width:150,
+        });
+    </script>
+</body>
+</html>

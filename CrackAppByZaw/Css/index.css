@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    align-items: center;
+}   
+.box_1{
+    height: 100px;
+ 
+    margin: 0 auto;
+    text-align: center;
+}
+.hello{
+    
+    height: 100px;
+    
+    margin: 0 auto;
+    text-align: center;
+}
+.box_2{
+    
+    height: 200px;
+    
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box_2_mini_1 img{
+    width: 150px;
+    height: 150px;
+}
+.box_3{
+    
+    height: 200px;
+    
+    margin: 90px auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box_4{
+    
+    height: 200px;
+
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
